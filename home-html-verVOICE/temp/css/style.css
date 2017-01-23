@@ -1,0 +1,87 @@
+body {
+  font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background: #000000;
+}
+
+/*今の温度*/
+#weather {
+  width: 225px;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*今日の曜日*/
+#weather h1  {
+  margin: 0 0 0px;
+  color: #fff;
+  font-size: 27px;
+  font-weight: 100;
+  text-align: left;
+}
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 150px;
+  font-weight: 300;
+  text-align: right;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+#weather li {
+  background: #fff;
+  background: rgba(255,255,255,0.90);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather .currently {
+  margin: 0 20px;
+}
+
+#weather p{
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: right;
+}
+
+#weather p0{
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 300;
+  text-align: right;
+}
+
+#weather p1{
+  margin: 0 0 8px;
+  color: #ccc;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: right;
+}
+
+#weather p2{
+  color: #777;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: right;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather p3{
+  color: #ddd;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: right;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}

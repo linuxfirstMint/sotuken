@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<title>スライドパネル</title>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="check/php/getIP.php"></script>   <!--ipアドレス変更対策-->
+    <script src="check/js/jointURL.js"></script>  <!--ipアドレス変更対策-->
+    <script src="check/js/Invisible.js"></script> <!--画面の明暗変化とセンサー情報の取得-->
+    <script src="check/js/contents.js"></script>  <!--コンテンツの動きを操作する-->
+    <script src="check/js/voice.js"></script>    <!--音声認識-->
+  <body>
+    <button id="stop_btn">stop</button>
+    <div id="content">
+    <div id="time">
+      <script>getURL("time","time");</script>
+    </div>
+    <div id="panel-calendar">
+      <iframe src="http://kachibito.net/snippets/side-panel-slide" style="width:100%; height:100%;" scrolling="no" frameborder="no"></iframe>
+      <!--<script>getURL("panel-calendar","calender");</script>-->
+    </div>
+    <div id="panel-weather">
+      <script>getURL("panel-weather","temp");</script>
+    </div>
+      <div id="panel-news">
+      <script>getURL("panel-news","newslist")</script>
+    </div>
+    <div id="news">
+      news
+    </div>
+    <div id="weather">
+      temp
+    </div>
+    <div id="calendar">
+      calender
+    </div>
+    </div>
+  </body>
+</html>

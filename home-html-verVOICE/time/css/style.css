@@ -1,0 +1,54 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans:300";
+
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+  font-weight: 200;
+  background: rgba(0, 0, 0, 1);
+}
+
+div.main-wrapper {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*CLOCK DISPLAY*/
+
+div.clock-wrapper {
+  flex-grow: 1;
+  position: relative;
+  overflow-y: auto;
+}
+
+p#clock {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans';
+  font-weight: 100;
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*MEDIA*/
+@media screen and (max-width: 100px) {
+  p#clock {
+    font-size: 40vw;
+  }
+}

@@ -1,0 +1,20 @@
+body {
+	background: #000;
+	color: #fff;
+	font-family:'Yu Gothic';
+	margin:20px;
+}
+.news_title {
+	font-size: 24px;
+	font-weight: bold;
+}
+.news_title p{
+	margin:0;
+}
+.news_list {
+	line-height: 24px;
+}
+.title {
+	font-size: 20px;
+	font-weight:100;
+}
